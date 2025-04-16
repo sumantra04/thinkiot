@@ -16,7 +16,7 @@ const ImageClipBox = ({ src, alt, clipClass }: ImageClipBoxProps) => (
 
 export const Contact = () => {
   return (
-    <section id="contact" className="min-h-[80vh] w-screen bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-[#dfdff0] bg-blend-overlay text-blue-50 flex flex-col items-center px-16">
+    <section id="contact" className="min-h-[80vh] w-screen bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-[#0a192f] bg-blend-overlay text-blue-50 flex flex-col items-center px-16">
       <div className="w-full text-center mt-10">
         <AnimatedTitle containerClass="text-6xl">
           {"Meet our Team"}

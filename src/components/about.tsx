@@ -54,7 +54,7 @@ export const About = () => {
             alt="Background"
             className="absolute left-0 top-0 size-full object-cover"
           />
-<p className="about-text absolute top-1/4 left-0  text-black text-lg opacity-0 px-8 py-6 flex flex-col items-center justify-center text-justify leading-relaxed max-w-md">
+<p className="about-text absolute top-1/4 left-0 bg-white text-black text-lg opacity-0 px-8 py-6 flex flex-col items-center justify-center text-justify leading-relaxed max-w-md">
   <h2 className="text-xl font-bold mb-4">About Us</h2>
   At Think IoT, we fuse IoT, AI, ML, and cybersecurity to transform ideas into reality. Backed by experts in software, hardware, and cybersecurity, we push the limits of innovation to create intelligent and secure solutions.
 
