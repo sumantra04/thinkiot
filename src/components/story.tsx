@@ -16,9 +16,9 @@ const ImageClipBox = ({ src, alt, clipClass }: ImageClipBoxProps) => (
 
 export const Story = () => {
   return (
-    <section id="story" className="min-h-[80vh] w-screen bg-black text-blue-50 flex flex-col items-center px-16">
-      <div className="w-full text-center mt-10">
-        <AnimatedTitle containerClass="text-6xl">
+    <section id="story" className="min-h-[80vh] w-screen bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-[#0a192f] bg-blend-overlay text-blue-50 flex flex-col items-center px-16">
+      <div className="w-full text-center  mt-10">
+        <AnimatedTitle containerClass="text-6xl ">
           {"OUR RECENT EVENTS"}
         </AnimatedTitle>
       </div>

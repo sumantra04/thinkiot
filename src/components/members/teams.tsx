@@ -14,7 +14,8 @@ export default function Teams() {
   return (
     <div>
       <Navbar/>
-      <div className="bg-gradient-to-br from-red-700 via-black to-red-900">
+      <div className="min-h-screen bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-[#0a192f] bg-blend-overlay text-white">
+
       <section className="mx-auto max-w-7xl overflow-hidden px-4 sm:px-6">
         <article className="col-auto mb-10 mt-10">
           <div id="padding"
@@ -32,7 +33,6 @@ export default function Teams() {
           >
             Core Team
           </h1>
-          {/* Core Team */}
           <section className="flex flex-wrap justify-center gap-5">
             {CoreTeam.map(core => (
               <CoreCard core={core} key={core.name} />
