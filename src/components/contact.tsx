@@ -1,5 +1,6 @@
 import { Button } from "./button";
 import { AnimatedTitle } from "./animated-title"; 
+import {Link} from "react-router-dom"
 
 interface ImageClipBoxProps {
   src: string;
@@ -30,7 +31,7 @@ export const Contact = () => {
         dignissim. Phasellus feugiat, mauris non facilisis eleifend, ligula nisi consectetur 
         orci, eu elementum est felis vel ipsum. Duis semper molestie velit id volutpat.
           </p>
-          <Button containerClass="bg-red-500 flex-center gap-1">Members</Button>
+          <Button containerClass="bg-red-500 flex-center gap-1"><Link to="/members">Members</Link></Button>
         </div>
         <div className="w-1/2 flex justify-end relative">
           <div className="relative w-[400px] h-[300px]">
