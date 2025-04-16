@@ -31,7 +31,7 @@ export const Story = () => {
             dignissim. Phasellus feugiat, mauris non facilisis eleifend, ligula nisi consectetur 
             orci, eu elementum est felis vel ipsum. Duis semper molestie velit id volutpat.
           </p>
-          <Button containerClass="bg-red-500 flex-center gap-1"><Link to="/events">Events</Link></Button>
+          <Link to="/events"><Button containerClass="bg-red-500 flex-center gap-1">Events</Button></Link>
         </div>
         <div className="w-1/2 flex justify-end relative">
           <div className="relative w-[400px] h-[300px]">
